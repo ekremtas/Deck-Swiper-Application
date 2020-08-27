@@ -98,9 +98,7 @@ export default function App() {
           },
         }}
       />
-      <View style={styles.BottomInfoContainer}>
-        <Text style={{ marginTop: 500 }}>{JSON.stringify(wanted)}</Text>
-      </View>
+      <Text style={{ marginTop: 500 }}>{JSON.stringify(wanted)}</Text>
     </View>
   );
 }
@@ -123,7 +121,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#fff",
   },
-  BottomInfoContainer:{
-  },
+  BottomInfoContainer: {},
   cardImage: { width: "95%", flex: 1, resizeMode: "contain" },
 });
